@@ -53,5 +53,13 @@ public class StackAndQueue<T> {
         obj.push(56);
         obj.push(30);
         obj.push(70);
+
+
+        obj.pop();
+        obj.Print();
+
+        System.out.println(); //space betwin
+        System.out.println(obj.peek());
+
     }
 }
