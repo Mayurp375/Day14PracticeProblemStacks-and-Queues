@@ -85,6 +85,10 @@ public class QueueClass <T>{
         obj.Print();
         System.out.println();
 
+        obj.remove();
+        System.out.println(obj.peek());
+        System.out.println();
+        System.out.println(obj.size);
     }
 
 
